@@ -1,6 +1,8 @@
 "use strict";
-let myName = "Bob";
-let color = "green";
-//template string example
-let statement = `Hello, my name is ${myName} and I like the color ${color}.`;
-console.log(statement);
+let superheroes = ["Batman", "Superman", "Wonder Woman"];
+for (let hero of superheroes) {
+    console.log(hero);
+}
+for (let hero in superheroes) {
+    console.log(hero);
+}
